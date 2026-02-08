@@ -1,0 +1,689 @@
+/* =========================
+  Base / Reset
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* =========================
+  Layout principal
+========================= */
+.cntInfo {
+  width: 95%;
+  margin-top: 1rem auto;
+  /* (se mantiene tal cual) */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cntIzq,
+.cntDer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 50%;
+}
+
+.cntIzq {
+  min-width: 360px;
+}
+
+/* =========================
+  Títulos / textos
+========================= */
+.tit {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  line-height: 1.2;
+
+  &> :nth-child(1) {
+    font-size: 0.75rem;
+    text-align: right;
+    letter-spacing: 1.5px;
+  }
+
+  &> :nth-child(2) {
+    font-size: 2rem;
+    transform: translateY(6px);
+  }
+}
+
+.entidad {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  text-align: right;
+
+  &> :nth-child(1),
+  &> :nth-child(3) {
+    font-size: 0.75rem;
+  }
+
+  &> :nth-child(2),
+  &> :nth-child(4) {
+    font-size: 1.25rem;
+  }
+}
+
+.sbtit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+
+/* =========================
+  Contenedores
+========================= */
+.cntCausas {
+  margin-top: 3rem;
+  width: 500px;
+}
+
+.cntBase {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.info,
+.cntDona {
+  width: 20%;
+}
+
+.cntDona {
+  min-width: 360px;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  &>p {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5%;
+    font-size: 0.75rem;
+    text-align: center;
+
+    &>span {
+      color: #59686b;
+      font-size: 0.5rem;
+    }
+  }
+
+  &>.cntDivision {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+
+    .totales {
+      display: flex;
+      gap: 1rem;
+      justify-content: start;
+      padding-left: 0.5;
+      margin-left: 3rem;
+      position: relative;
+      font-size: 0.75rem;
+      padding-left: 0.25rem;
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 0.65rem;
+        height: 0.65rem;
+        top: 0.25rem;
+        left: -1rem;
+
+      }
+    }
+  }
+}
+
+.cntDivision .totales[name~="ho"]::before {
+  background-color: #808080;
+}
+
+.cntDivision .totales[name~="mu"]::before {
+  background-color: #00b7c8;
+}
+
+.cntDivision .totales[name~="nd"]::before {
+  background-color: #9a75ac;
+}
+
+/* =========================
+  Info / Totales
+========================= */
+.info {
+  text-align: end;
+
+  &> :nth-child(1) {
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+  }
+
+  &> :nth-child(2) {
+    font-size: 0.85rem;
+    margin-bottom: 0.5em;
+  }
+
+
+}
+
+
+/* =========================
+  Tabla (estructura)
+========================= */
+.cntTabla {
+  display: flex;
+  flex-direction: column;
+
+  &>.arriba {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    &>p {
+      width: 180px;
+      text-align: center;
+    }
+
+    &>.iconos {
+      width: 100px;
+      transform: translateX(0.25rem);
+    }
+  }
+
+  &>.abajo {
+    display: flex;
+    gap: 2rem;
+
+    &>.izq>ol>li {
+      text-align: right;
+      list-style: none;
+    }
+
+    &>.der {
+      text-align: center;
+    }
+  }
+}
+
+/* =========================
+  SVG: barras horizontales
+========================= */
+.bar-bg {
+  stroke: #e5e7eb00;
+  stroke-width: 20;
+}
+
+.bar-fg {
+  stroke: #b4b4b4;
+  stroke-width: 20;
+  transition: stroke-dasharray 700ms ease, stroke-dashoffset 700ms ease;
+}
+
+/* =========================
+  SVG: barras verticales
+========================= */
+.v-bg {
+  stroke: #e5e7eb00;
+  stroke-width: 20;
+  stroke-linecap: round;
+}
+
+.v-fgHo,
+.v-fgMu,
+.v-fgNd {
+
+  stroke-width: 20;
+
+  transition: stroke-dasharray 700ms ease, stroke-dashoffset 700ms ease;
+}
+
+.v-fgHo {
+  stroke: #808080;
+}
+
+.v-fgMu {
+  stroke: #63d8d8;
+}
+
+.v-fgNd {
+  stroke: #9a75ac;
+}
+
+/* =========================
+  Mapa
+========================= */
+#mapa {
+  width: 90%;
+  display: flex;
+}
+
+.mapa {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 920px;
+  min-width: 360px;
+}
+
+.region {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 0.5;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.region:hover {
+  fill: #00b4d8;
+}
+
+/* SVG paths (mapa) */
+#mapa #features path {
+  fill: #63d8d8;
+  stroke: #000;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+#mapa #features path:hover {
+  fill: #326b6b;
+}
+
+/* Seleccionado */
+#mapa #features path.is-active {
+  fill: #326b6b;
+}
+
+#entidadNombre {
+  display: inline-block;
+  transition: opacity 180ms ease, transform 180ms ease;
+  will-change: opacity, transform;
+}
+
+/* Estado de salida (fade-out) */
+#entidadNombre.is-changing {
+  opacity: 0;
+  transform: translateY(2px);
+}
+
+/* Transición base para los textos de causas */
+.mapa #causasTop5 text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+/* Estado de “cambiando” */
+.mapa #causasTop5 text.is-changing {
+  opacity: 0;
+  transform: translateY(-2px);
+}
+
+/* Transición base para cantidades */
+.mapa #cantidadesTop5 text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.mapa #cantidadesTop5 text.is-changing {
+  opacity: 0;
+  transform: translateY(-2px);
+}
+
+.mapa #muertesHombres,
+.mapa #muertesMujeres,
+.mapa #muertesNoDef,
+.mapa #pctHombres,
+.mapa #pctMujeres,
+.mapa #pctNoDef {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.mapa #muertesHombres.is-changing,
+.mapa #muertesMujeres.is-changing,
+.mapa #muertesNoDef.is-changing,
+.mapa #pctHombres.is-changing,
+.mapa #pctMujeres.is-changing,
+.mapa #pctNoDef.is-changing {
+  opacity: 0;
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+  Gráficas 
+========================= */
+#graficas {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.nombre {
+  width: 150px;
+  font-size: 14px;
+}
+
+.barra-valor {
+  height: 30px;
+  transform: translateX(35px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  transition: width 0.9s ease-out;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.barra-valor:nth-child(1) {
+  background-color: color-mix(in oklab, #00b7c8 100%, #59686b 30%);
+}
+
+.barra-valor:nth-child(2) {
+  background-color: color-mix(in oklab, #00b7c8 80%, #59686b 30%);
+}
+
+.barra-valor:nth-child(3) {
+  background-color: color-mix(in oklab, #00b7c8 60%, #59686b 30%);
+}
+
+.barra-valor:nth-child(4) {
+  background-color: color-mix(in oklab, #00b7c8 40%, #59686b 30%);
+}
+
+.barra-valor:nth-child(5) {
+  background-color: color-mix(in oklab, #00b7c8 20%, #59686b 30%);
+}
+
+.barra-valor:nth-child(6) {
+  background-color: color-mix(in oklab, #00b7c8 10%, #59686b 30%);
+}
+
+.cantidad {
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.grafico-vertical {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px;
+  width: 90%;
+  margin: 20px auto;
+  max-width: 500px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+
+.barra-vertical {
+  width: 20%;
+  background-color: #00b7c8;
+  transition: height 0.9s ease-in-out;
+}
+
+.barra-vertical span {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+
+.tooltip {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(17, 24, 39, 0.92);
+  color: #fff;
+  padding: 6px 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  pointer-events: none;
+  transform: translate(10px, 10px);
+  white-space: nowrap;
+}
+
+/* =========================
+  Suavizado de textos (HTML)
+  
+========================= */
+
+/* Base (estado normal) */
+#entidadNombre,
+#totalMuertes {
+  display: inline-block;
+  /* permite transform sin brincos */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 180ms ease, transform 180ms ease;
+  will-change: opacity, transform;
+}
+
+/* Estado “cambiando” (fade-out antes del swap) */
+#entidadNombre.is-changing,
+#totalMuertes.is-changing {
+  opacity: 0;
+  transform: translateY(2px);
+}
+
+/* =========================
+  Grafica Historica
+
+========================= */
+
+
+.cntHistorico {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: end;
+  flex-wrap: wrap;
+
+  &>.txtbase {
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    width: 30%;
+
+    &>:nth-child(1) {
+      font-size: 2rem;
+      text-align: end;
+      color: #59686b;
+      margin-bottom: 3rem;
+
+    }
+
+    &>:nth-child(2) {
+      font-size: 0.85rem;
+      text-align: end;
+      color: #59686b;
+    }
+  }
+}
+
+.cntGrafica {
+
+  display: flex;
+  width: 500px;
+  min-width: 300px;
+  position: relative;
+}
+
+.txtAlta {
+  position: absolute;
+  top: 25%;
+  right: 0;
+
+  &>p {
+    width: 250px;
+    min-width: 100px;
+    font-size: 0.85rem;
+    text-align: end;
+    color: #59686b;
+
+    &>span {
+      color: #59686b;
+      font-size: 0.5rem;
+    }
+  }
+}
+
+.pie {
+  margin: 0.5rem 3rem 3rem;
+  display: flex;
+  align-items: end;
+  gap: 0.2rem;
+  line-height: 1.1;
+  font-size: 0.75rem;
+
+  &> :nth-child(2) {
+    border-left: 2px solid #00b7c8;
+    padding-left: .5rem
+  }
+}
+
+.pie a {
+  color: #00b7c8;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.pie .ext-icon {
+  font-size: 0.6rem;
+  vertical-align: text-top;
+  margin-left: 0.2rem;
+}
+
+.pie a:hover,
+.pie a:focus {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 860px) {
+
+  .cntInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cntIzq {
+    width: 90%;
+  }
+
+  .mapasvg {
+    
+  }
+
+  .cntDer {
+    width: 80%;
+  }
+
+  .sbtit {
+    text-align: center;
+
+  }
+
+  .cntCausas {
+    margin-top: 0;
+
+  }
+
+  .causas {
+    transform: scale(0.8) translateX(70px);
+  }
+
+  .cntBase {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    width: 90%;
+    text-align: center;
+  }
+
+  .cntHistorico {
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    margin: 0 auto;
+
+    &>.cntGrafica {
+      width: 90vw;
+    }
+
+    &>.txtbase {
+      width: 90%;
+      margin-top: 2rem;
+      margin-right: 0;
+      padding-bottom: 0;
+      text-align: center;
+
+      &>:nth-child(1) {
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+
+      &>:nth-child(2) {
+        text-align: center;
+      }
+    }
+    & .txtAlta {
+      position: absolute;
+      top: 13%;
+      right: 3%;
+      width: 45%;
+      &>p {
+        font-size: 0.65rem;
+        width: 95%;
+      }
+    }
+  }
+}

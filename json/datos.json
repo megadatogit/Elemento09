@@ -1,0 +1,964 @@
+{
+    "estados": [
+        {
+            "id": "MXAGU",
+            "estado": "Aguascalientes",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 1375
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 982
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 745
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 471
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 323
+                }
+            ],
+            "totalMuertes": 7591,
+            "masculinoMuertes": 4229,
+            "femeninoMuertes": 3353,
+            "indefinidoMuertes": 9
+        },
+        {
+            "id": "MXBCN",
+            "estado": "Baja California",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4713
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2703
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2545
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 1628
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 323
+                }
+            ],
+            "totalMuertes": 25000,
+            "masculinoMuertes": 16158,
+            "femeninoMuertes": 8741,
+            "indefinidoMuertes": 101
+        },
+        {
+            "id": "MXBCS",
+            "estado": "Baja California Sur",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 937
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 604
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 378
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 260
+                },
+                {
+                    "nombre": "Influenza y neumonia",
+                    "cantidad": 211
+                }
+            ],
+            "totalMuertes": 4076,
+            "masculinoMuertes": 2455,
+            "femeninoMuertes": 1621,
+            "indefinidoMuertes": 0
+        },
+        {
+            "id": "MXCAM",
+            "estado": "Campeche",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 1327
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 754
+                },
+                {
+                    "nombre": "tumores malignos",
+                    "cantidad": 653
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 310
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 310
+                }
+            ],
+            "totalMuertes": 5425,
+            "masculinoMuertes": 3124,
+            "femeninoMuertes": 2299,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXCHH",
+            "estado": "Chihuahua",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 6127
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 3137
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2667
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 2342
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1608
+                }
+            ],
+            "totalMuertes": 27685,
+            "masculinoMuertes": 16262,
+            "femeninoMuertes": 11399,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXCHP",
+            "estado": "Chiapas",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 7171
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 4531
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 3468
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 2342
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 1306
+                }
+            ],
+            "totalMuertes": 30576,
+            "masculinoMuertes": 16730,
+            "femeninoMuertes": 13831,
+            "indefinidoMuertes": 15
+        },
+        {
+            "id": "MXCMX",
+            "estado": "Ciudad de Mexico",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 17020
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 8883
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 8371
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 3455
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 2973
+                }
+            ],
+            "totalMuertes": 78625,
+            "masculinoMuertes": 40787,
+            "femeninoMuertes": 37830,
+            "indefinidoMuertes": 8
+        },
+        {
+            "id": "MXCOA",
+            "estado": "Coahuila",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4929
+                },
+                {
+                    "nombre": "diabetes mellitus",
+                    "cantidad": 2833
+                },
+                {
+                    "nombre": "tumores malignos",
+                    "cantidad": 2362
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 974
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 894
+                }
+            ],
+            "totalMuertes": 19890,
+            "masculinoMuertes": 11003,
+            "femeninoMuertes": 8885,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXCOL",
+            "estado": "Colima",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 980
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 703
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 686
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 623
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 307
+                }
+            ],
+            "totalMuertes": 5971,
+            "masculinoMuertes": 3626,
+            "femeninoMuertes": 2343,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXDUR",
+            "estado": "Durango",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 2942
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1242
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1155
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 649
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 418
+                }
+            ],
+            "totalMuertes": 10034,
+            "masculinoMuertes": 5540,
+            "femeninoMuertes": 4492,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXGRO",
+            "estado": "Guerrero",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4713
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2703
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2545
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 1628
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 927
+                }
+            ],
+            "totalMuertes": 18618,
+            "masculinoMuertes": 10716,
+            "femeninoMuertes": 7891,
+            "indefinidoMuertes": 11
+        },
+        {
+            "id": "MXGUA",
+            "estado": "Guanajuato",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 9701
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 6132
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 4018
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 3635
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 2249
+                }
+            ],
+            "totalMuertes": 40079,
+            "masculinoMuertes": 22795,
+            "femeninoMuertes": 17252,
+            "indefinidoMuertes": 32
+        },
+        {
+            "id": "MXHID",
+            "estado": "Hidalgo",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4436
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2561
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2124
+                },
+                {
+                    "nombre": "Enfermedades cerebrovasculares",
+                    "cantidad": 944
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 906
+                }
+            ],
+            "totalMuertes": 17125,
+            "masculinoMuertes": 9329,
+            "femeninoMuertes": 7780,
+            "indefinidoMuertes": 16
+        },
+        {
+            "id": "MXJAL",
+            "estado": "Jalisco",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 11375
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 6455
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 5575
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 3557
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 2651
+                }
+            ],
+            "totalMuertes": 53852,
+            "masculinoMuertes": 30352,
+            "femeninoMuertes": 23477,
+            "indefinidoMuertes": 23
+        },
+        {
+            "id": "MXMEX",
+            "estado": "Mexico",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 20806
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 16716
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 11225
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 1628
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 4882
+                }
+            ],
+            "totalMuertes": 87642,
+            "masculinoMuertes": 48282,
+            "femeninoMuertes": 39314,
+            "indefinidoMuertes": 46
+        },
+        {
+            "id": "MXMIC",
+            "estado": "Michoacán",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 7172
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 4537
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 3393
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 1628
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1636
+                }
+            ],
+            "totalMuertes": 30066,
+            "masculinoMuertes": 17250,
+            "femeninoMuertes": 12798,
+            "indefinidoMuertes": 18
+        },
+        {
+            "id": "MXMOR",
+            "estado": "Morelos",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 3374
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2137
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1565
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 1505
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 933
+                }
+            ],
+            "totalMuertes": 15554,
+            "masculinoMuertes": 8780,
+            "femeninoMuertes": 6773,
+            "indefinidoMuertes": 1
+        },
+        {
+            "id": "MXNAY",
+            "estado": "Nayarit",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 1518
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 872
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 751
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 525
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 371
+                }
+            ],
+            "totalMuertes": 7256,
+            "masculinoMuertes": 4202,
+            "femeninoMuertes": 3052,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXNLE",
+            "estado": "Nuevo Leon",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 9415
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 4317
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 3879
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 2366
+                },
+                {
+                    "nombre": "Enfermedades cerebrovasculares",
+                    "cantidad": 1847
+                }
+            ],
+            "totalMuertes": 37278,
+            "masculinoMuertes": 21122,
+            "femeninoMuertes": 16145,
+            "indefinidoMuertes": 11
+        },
+        {
+            "id": "MXOAX",
+            "estado": "Oaxaca",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 6470
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 4352
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1305
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 1765
+                },
+                {
+                    "nombre": "Enfermedades cerebrovasculares",
+                    "cantidad": 1612
+                }
+            ],
+            "totalMuertes": 27478,
+            "masculinoMuertes": 14593,
+            "femeninoMuertes": 12880,
+            "indefinidoMuertes": 5
+        },
+        {
+            "id": "MXPUE",
+            "estado": "Puebla",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 10913
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 7018
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 4188
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 2965
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1800
+                }
+            ],
+            "totalMuertes": 41736,
+            "masculinoMuertes": 22184,
+            "femeninoMuertes": 19536,
+            "indefinidoMuertes": 16
+        },
+        {
+            "id": "MXQUE",
+            "estado": "Querétaro",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 2624
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1637
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1358
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 739
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 684
+                }
+            ],
+            "totalMuertes": 12884,
+            "masculinoMuertes": 7207,
+            "femeninoMuertes": 5676,
+            "indefinidoMuertes": 1
+        },
+        {
+            "id": "MXROO",
+            "estado": "Quintana Roo",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 1446
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1183
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 964
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 671
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 653
+                }
+            ],
+            "totalMuertes": 9447,
+            "masculinoMuertes": 5900,
+            "femeninoMuertes": 3544,
+            "indefinidoMuertes": 3
+        },
+        {
+            "id": "MXSIN",
+            "estado": "Sinaloa",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4713
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2429
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1568
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1317
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 827
+                }
+            ],
+            "totalMuertes": 16978,
+            "masculinoMuertes": 10102,
+            "femeninoMuertes": 6858,
+            "indefinidoMuertes": 18
+        },
+        {
+            "id": "MXSLP",
+            "estado": "San Luis Potosí",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4779
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2463
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2020
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1033
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 822
+                }
+            ],
+            "totalMuertes": 18624,
+            "masculinoMuertes": 10341,
+            "femeninoMuertes": 8275,
+            "indefinidoMuertes": 8
+        },
+        {
+            "id": "MXSON",
+            "estado": "Sonora",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 4853
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2481
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1565
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 1339
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 1117
+                }
+            ],
+            "totalMuertes": 20277,
+            "masculinoMuertes": 12224,
+            "femeninoMuertes": 8019,
+            "indefinidoMuertes": 34
+        },
+        {
+            "id": "MXTAB",
+            "estado": "Tabasco",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 3910
+                },
+                {
+                    "nombre": "diabetes mellitus",
+                    "cantidad": 2778
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1461
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 592
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 591
+                }
+            ],
+            "totalMuertes": 15319,
+            "masculinoMuertes": 6488,
+            "femeninoMuertes": 8741,
+            "indefinidoMuertes": 2
+        },
+        {
+            "id": "MXTAM",
+            "estado": "Tamaulipas",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 5493
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 2968
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 2655
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 1051
+                },
+                {
+                    "nombre": "Enfermedades cerebro vasculares",
+                    "cantidad": 937
+                }
+            ],
+            "totalMuertes": 21785,
+            "masculinoMuertes": 12254,
+            "femeninoMuertes": 9455,
+            "indefinidoMuertes": 76
+        },
+        {
+            "id": "MXTLA",
+            "estado": "Tlaxcala",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 1934
+                },
+                {
+                    "nombre": "diabetes mellitus",
+                    "cantidad": 1289
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 836
+                },
+                {
+                    "nombre": "Accidentes",
+                    "cantidad": 490
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 440
+                }
+            ],
+            "totalMuertes": 7342,
+            "masculinoMuertes": 3989,
+            "femeninoMuertes": 3353,
+            "indefinidoMuertes": 0
+        },
+        {
+            "id": "MXVER",
+            "estado": "Veracruz",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 15847
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 10443
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 6534
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 3748
+                },
+                {
+                    "nombre": "Enfermedades cerebrovasculares",
+                    "cantidad": 2895
+                }
+            ],
+            "totalMuertes": 59674,
+            "masculinoMuertes": 31811,
+            "femeninoMuertes": 27858,
+            "indefinidoMuertes": 5
+        },
+        {
+            "id": "MXYUC",
+            "estado": "Yucatán",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 3738
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1638
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1456
+                },
+                {
+                    "nombre": "Enfermedades del hígado",
+                    "cantidad": 1094
+                },
+                {
+                    "nombre": "Influenza y neumonía",
+                    "cantidad": 944
+                }
+            ],
+            "totalMuertes": 15609,
+            "masculinoMuertes": 7014,
+            "femeninoMuertes": 8594,
+            "indefinidoMuertes": 1
+        },
+        {
+            "id": "MXZAC",
+            "estado": "Zacatecas",
+            "muertes": [
+                {
+                    "nombre": "Enfermedades del corazón",
+                    "cantidad": 2214
+                },
+                {
+                    "nombre": "Tumores malignos",
+                    "cantidad": 1194
+                },
+                {
+                    "nombre": "Diabetes mellitus",
+                    "cantidad": 1182
+                },
+                {
+                    "nombre": "Agresiones (homicidios)",
+                    "cantidad": 857
+                },
+                {
+                    "nombre": "accidentes",
+                    "cantidad": 651
+                }
+            ],
+            "totalMuertes": 10553,
+            "masculinoMuertes": 6144,
+            "femeninoMuertes": 4397,
+            "indefinidoMuertes": 12
+        }
+    ]
+}
