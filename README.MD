@@ -10,10 +10,7 @@
 ![CSS](https://img.shields.io/badge/Estilo-CSS-blue?style=for-the-badge&logo=blueprint&logoColor=white)
 ![JS](https://img.shields.io/badge/Logica-JS-yellow?style=for-the-badge&logo=probot&logoColor=black)
 
-  <h3> 
-   <a href="https://megadatogit.github.io/Elemento09/"></a> Ver Demo En Vivo</a> 
-   
-  </h3>
+  
 </div>
 
 ---
