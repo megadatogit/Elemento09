@@ -7,7 +7,7 @@
 ## EDR 2023 Causas de muerte en México por entidad
 
 ![HTML](https://img.shields.io/badge/Estructura-HTML-orange?style=for-the-badge&logo=codeforces&logoColor=white)
-![CSS](https://img.shields.io/badge/Estilo-CSS-blue?style=for-the-badge&logo=blueprint&logoColor=white)
+![CSS](https://img.shields.io/badge/Estilo-CSS-rebeccapurple?style=for-the-badge&logo=blueprint&logoColor=white)
 ![JS](https://img.shields.io/badge/Logica-JS-yellow?style=for-the-badge&logo=probot&logoColor=black)
 
   
@@ -32,11 +32,11 @@
 
 | Archivo | Tipo | Descripción |
 | --- | --- | --- |
-| **`ele09.html`** | `HTML5` | Estructura principal y contenedor de los elementos SVG del mapa. |
+| **`index.html`** | `HTML5` | Estructura principal y contenedor de los elementos SVG del mapa. |
 | **`ele09.css`** | `CSS3` | Estilos de maquetación, visuales y diseño responsivo. |
-| **`ele09.js`** | `JS` | Lógica de interacción, carga de datos y animaciones. |
-| **`datos.json`** | `JSON` | Dataset con causas, totales y género por entidad. |
-| **`favicon.svg`** | `SVG` | Ícono oficial del sitio. |
+| **`js/ele09.js`** | `JS` | Lógica de interacción, carga de datos y animaciones. |
+| **`json/datos.json`** | `JSON` | Dataset con causas, totales y género por entidad. |
+| **`image/favicon.svg`** | `SVG` | Ícono oficial del sitio. |
 
 ### 🎨 Proceso de Diseño (UI/UX)
 Para este proyecto, el flujo de trabajo comenzó en **Penpot**. Se trabajó en:
@@ -55,4 +55,13 @@ Si quieres explorar el código localmente:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/megadatogit/Elemento09.git](https://github.com/megadatogit/Elemento09.git)
+   git clone https://github.com/megadatogit/Elemento09.git
+   cd Elemento09
+   ```
+
+2. Inicia un servidor local para permitir la carga del archivo JSON:
+   ```bash
+   python -m http.server 8000
+   ```
+
+3. Abre `http://localhost:8000` en el navegador.

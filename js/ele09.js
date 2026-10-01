@@ -283,7 +283,7 @@ function updateGenero({ masculino, femenino, indefinido, total }) {
 
 // ---------- CARGA DATOS ----------
 async function loadDatos() {
-  const res = await fetch("../json/datos.json");
+  const res = await fetch("./json/datos.json");
   if (!res.ok) throw new Error("No se pudo cargar datos.json");
 
   const json = await res.json();
@@ -340,17 +340,39 @@ features?.addEventListener("click", (e) => {
   const path = e.target.closest("path");
   if (!path || !features.contains(path)) return;
 
-  if (activePath) activePath.classList.remove("is-active");
+  if (activePath) {
+    activePath.classList.remove("is-active");
+    activePath.setAttribute("aria-pressed", "false");
+  }
   path.classList.add("is-active");
+  path.setAttribute("aria-pressed", "true");
   activePath = path;
 
   onEstadoSelected(path);
+});
+
+features?.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+
+  const path = e.target.closest("path");
+  if (!path || !features.contains(path)) return;
+
+  e.preventDefault();
+  path.dispatchEvent(new MouseEvent("click", { bubbles: true }));
 });
 
 // ---------- INIT ----------
 (async function init() {
   try {
     await loadDatos();
+
+    features?.querySelectorAll("path").forEach((path) => {
+      const nombre = path.getAttribute("name") || "entidad";
+      path.setAttribute("tabindex", "0");
+      path.setAttribute("role", "button");
+      path.setAttribute("aria-label", `Ver datos de ${nombre}`);
+      path.setAttribute("aria-pressed", "false");
+    });
 
     initBarGeometry();
 
