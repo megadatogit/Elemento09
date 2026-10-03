@@ -641,7 +641,8 @@ body {
   }
 
   .tit > :nth-child(2) {
-    font-size: clamp(1.5rem, 8vw, 2rem);
+    font-size: clamp(1.45rem, 6vw, 1.75rem);
+    line-height: 1.15;
     transform: none;
   }
 
@@ -651,13 +652,20 @@ body {
     margin: 1rem 0;
   }
 
+  .entidad > :nth-child(2),
+  .entidad > :nth-child(4) {
+    font-size: 1.125rem;
+  }
+
   .cntDer {
     width: 90%;
   }
 
   .sbtit {
+    margin-top: 2rem;
+    font-size: clamp(1rem, 4.4vw, 1.125rem);
+    line-height: 1.35;
     text-align: center;
-
   }
 
   .cntCausas {
@@ -683,6 +691,10 @@ body {
     text-align: center;
   }
 
+  .info > :nth-child(1) {
+    font-size: 1.125rem;
+  }
+
   .cntHistorico {
     flex-direction: column;
     align-items: center;
@@ -701,6 +713,8 @@ body {
       text-align: center;
 
       &>:nth-child(1) {
+        font-size: clamp(1.5rem, 6.5vw, 1.75rem);
+        line-height: 1.2;
         text-align: center;
         margin-bottom: 0.5rem;
       }
