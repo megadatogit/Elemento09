@@ -695,6 +695,17 @@ body {
     font-size: 1.125rem;
   }
 
+  .cntTabla > .arriba {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cntTabla > .arriba > h3 {
+    width: min(13rem, calc(100% - 6.25rem));
+    padding-inline: 0.5rem;
+    text-align: center;
+  }
+
   .cntHistorico {
     flex-direction: column;
     align-items: center;
